@@ -27,8 +27,18 @@ let main argv =
     // printfn "Day 07, Part 1: %A" d07.p1
     // printfn "Day 07, Part 2: %A" d07.p2
 
-    printfn "Day 08, Part 1: %A" d08.p1
-    printfn "Day 08, Part 2: %A" d08.p2
+    // printfn "Day 08, Part 1: %A" (d08.p1 ())
+    // printfn "Day 08, Part 2: %A" (d08.p2 ())
 
+    // printfn "Day 09, Part 1: %A" (d09.p1 491 71058)
+    // printfn "Day 09, Part 2: %A" (d09.p2 491L (71058L*100L))
+
+    // printfn "Day 10, Part 1: %A" (d10.p1 ())
+    // printfn "Day 10, Part 2: %A" (d10.p2 ())
+
+    printfn "Day 11, Test 1: 33,45 -> 29 = %A" (d11.p 300 18)
+    printfn "Day 11, Test 2: 21,61 -> 30 = %A" (d11.p 300 42)
+
+    printfn "Day 11, Part 1: %A" (d11.p 300 1308)
 
     0 // return an integer exit code
