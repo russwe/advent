@@ -36,9 +36,12 @@ let main argv =
     // printfn "Day 10, Part 1: %A" (d10.p1 ())
     // printfn "Day 10, Part 2: %A" (d10.p2 ())
 
-    printfn "Day 11, Test 1: 33,45 -> 29 = %A" (d11.p 300 18)
-    printfn "Day 11, Test 2: 21,61 -> 30 = %A" (d11.p 300 42)
+    // printfn "Day 11, Part 1: %A" (d11.p1 300 1308)
+    // printfn "Day 11, Part 2: %A" (d11.p2 300 1308)
 
-    printfn "Day 11, Part 1: %A" (d11.p 300 1308)
+    // printfn "Day 12, Part 1: %A" (d12.p1 20L)
+    
+    printfn "Day 12, Part 2 (chk): %A" (d12.p2 20L)
+    printfn "Day 12, Part 2: %A" (d12.p2 50_000_000_000L)
 
     0 // return an integer exit code
